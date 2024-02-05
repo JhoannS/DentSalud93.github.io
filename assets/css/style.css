@@ -671,7 +671,6 @@ input[type="radio"] {
 
 footer{
     background-color: var(--primary);
-    margin-top: -180px;
     padding: 50px 100px;
     display: flex;
     justify-content: space-between;
