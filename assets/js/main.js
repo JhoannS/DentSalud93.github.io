@@ -3,3 +3,10 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("abajo",window.scrollY>0);
 })
 
+
+let subMenuP = document.getElementById("subMenuP")
+
+function menuP(){
+    subMenuP.classList.toggle("activo")
+}
+
