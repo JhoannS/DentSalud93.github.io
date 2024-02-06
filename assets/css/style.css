@@ -54,7 +54,7 @@ header {
 }
 
 header.abajo {
-    transform: translateY(-1000px);
+    transform: translateY(-1000%);
     transition: 2s;
 
 }
