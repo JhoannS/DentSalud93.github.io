@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentSalud 93</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/db59255a97.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon">
+</head>
+
+<body >
+    
+
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logo.svg" alt="logo-Dent">
+            <div class="eslogan">
+                <h1>DentSalud 93</h1>
+                <p>Consultorio Odontológico</p>
+            </div>
+        </div>
+       
+        <nav>
+            <a href="index.html" class="active-nav links" data-lang="Inicio">Inicio</a>
+            <a href="#tratamientos" class="links">Tratamientos</a>
+            <a href="#blog" class="links">Blog</a>
+            <a href="#footer" class="links">Información</a>
+        </nav>
+
+        <div class="botones-h">
+            <div class="burger"><i class="fa fa-bars" onclick="menuP();" id="burger"></i></div>
+            
+        <a href="https://wa.link/r18f6n"><button><i class="fa fa-whatsapp" aria-hidden="true"></i><span> Contactanos</span></button></a>
+        </div>
+        
+    </header>
+    <section class="responsive" id="subMenuP" >
+        <i class="fa-solid fa-xmark" onclick="menuP();" ></i>
+        <div class="caja-b">
+            <img src="./assets/img/logo.svg" alt="">
+           <a href="index.html" class="active-nav">
+            <p class="active-nav">Inicio</p>
+           </a>
+           <a href="#tratamientos">
+            <p>Tratamientos</p>
+           </a>
+           <a href="#blog">
+            <p>Blog</p>
+           </a>
+           <a href="#footer">
+            <p>Información</p>
+           </a>
+        </div>
+    </section>
+    <section class="banner">
+        <div id="slider">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <img src="./assets/img/Protesis-total-dental.jpg" alt="protesis dental">
+                                <div class="texto-b">
+                                    <h3>Diseño de sonrisa</h3>
+                                    <p>El diseño de sonrisa consiste en llevar
+                                        los dientes a unas condiciones
+                                        ideales de tamaño, forma y color
+                                        segun el rostro.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <img src="./assets/img/ortodoncias-dentales-v2.jpg" alt="protesis dental">
+                                <div class="texto-b">
+                                    <h3>Ortodoncia</h3>
+                                    <p>Si tienes los dientes mal alineados, la solución es el
+                                        tratamiento de Ortodoncia, dónde los dientes se colocan en su posición
+                                        correcta. Existen brackets metálicos, estéticos, sin ligas e incluso
+                                        sistemas totalmente transparentes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <img src="./assets/img/Ofertas-en-Implantes-dentales.webp" alt="protesis dental">
+                                <div class="texto-b">
+                                    <h3>Implantología</h3>
+                                    <p>El implante dental está recomendado para casos de pérdidas de
+                                        dientes por enfermedad (enfermedad periodontal, caries, etc.), tras la
+                                        pérdida dental debida a accidentes y en caso de ausencia congénita de
+                                        dientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <img src="./assets/img/protesis-dental-2.jpg" alt="protesis dental">
+                                <div class="texto-b">
+                                    <h3>Prótesis Bucales</h3>
+                                    <p>Las prótesis bucales permiten sustituir a los dientes y otras
+                                        estructuras orales, con el restablecimiento de las funciones estéticas,
+                                        fonéticas y masticatorias. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="etiquetas">
+                <div class="detalle">
+                    <img src="./assets/img/odontologia-avanzada.png" alt="">
+                    <span>Odontológia avanzada</span>
+                </div>
+                <div class="detalle">
+                    <img src="./assets/img/herramientas-de-dentista.png" alt="">
+                    <span>Equipos de alta tecnología</span>
+                </div>
+                <div class="detalle">
+                    <img src="./assets/img/consultorio.png" alt="">
+                    <span>Consultorio confortable</span>
+                </div>
+                <div class="detalle">
+                    <img src="./assets/img/atencion.png" alt="">
+                    <span  id="tratamientos">Atención amigable</span>
+                </div>
+            </div>
+
+            <!-- tratamientos -->
+            <div class="contenido" >
+                <h2>Tratamientos</h2>
+                <p>Tratamientos Odontológicos Integrales</p>
+                <p>Todos nuestros tratamientos y servicios se brindan en cómodas
+                    instalaciones con los más altos estándares de calidad.</p>
+
+                <div class="container">
+                    <input type="radio" name="dot" id="one" />
+                    <input type="radio" name="dot" id="two" />
+                    <input type="radio" name="dot" id="three" />
+                    <input type="radio" name="dot" id="four" />
+                    <div class="main-card">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/endodoncia.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Endodoncia</div>
+                                        <div class="job">La endodoncia sirve para conservar
+                                            las piezas dentales sin recurir la
+                                            extraccion del diente y es el ultimo
+                                            recurso para conservar aquellos
+                                            dientes que tienen una infeccion en el
+                                            nervio deltal y periferia</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/periodoncia-dental.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Periodoncia</div>
+                                        <div class="job">La Periodoncia trata la salud de las encías que son tan
+                                            importantes como las piezas dentales. Un cuidado deficiente de las encías
+                                            puede derivar en patologías como el sarro, causando inflamación y provocando
+                                            este sangrado.</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/Cirugia-Maxilofacial.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Cirugía maxilofacial</div>
+                                        <div class="job">Los terceros molares, comúnmente llamados “muelas del juicio”,
+                                            pueden permanecer en boca siempre y cuando se encuentren correctamente
+                                            posicionadas, pero desgraciadamente, esto no sucede en la mayoría de los
+                                            casos.</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/blanqueamiento-dental.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Blanqueamiento dental</div>
+                                        <div class="job">El blanqueamiento dental es un procedimiento que aclara los
+                                            dientes que están manchados, decolorados o que se han oscurecido por un
+                                            golpe. Se puede realizar en dientes vitales o en dientes con endodoncia.
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/resina-de-alta-estetica.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Resinas de alta estética</div>
+                                        <div class="job">Las resinas son del color del diente y se colocan en la
+                                            superficie de los mismos igualando su apariencia natural, después de
+                                            eliminar caries, fractura a restaurar, espacios entre los dientes, pequeñas
+                                            imperfecciones, etc.</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/protesis-dental-2.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Prótesis bucales</div>
+                                        <div class="job">Las prótesis bucales permiten sustituir a los dientes y otras
+                                            estructuras orales, con el restablecimiento de las funciones estéticas,
+                                            fonéticas y masticatorias. </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/Protesis-total-dental.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Diseño de sonrisa</div>
+                                        <div class="job">El Diseño de Sonrisa consiste en llevar los dientes a unas
+                                            condiciones ideales de tamaño forma y color, según la cara, la personalidad
+                                            y los rasgos específicos de cada paciente, se busca llevar a los dientes
+                                            hasta un estado natural, altamente armónico y visualmente muy agradable.
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/carilla-porcelana-vm-750x500.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Carillas dentales</div>
+                                        <div class="job">Las carillas son unas capas delgadas de porcelana hechas a la
+                                            medida que cubren la parte del enfrente de los dientes y se utilizan para
+                                            cerrar espacios, dientes manchados, con mala formación o ligeramente
+                                            chuecos. </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/Ofertas-en-Implantes-dentales.webp" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Implantología</div>
+                                        <div class="job">El implante dental está recomendado para casos de pérdidas de
+                                            dientes por enfermedad (enfermedad periodontal, caries, etc.), tras la
+                                            pérdida dental debida a accidentes y en caso de ausencia congénita de
+                                            dientes.</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="boton-hover">
+                                    <a href="#"><button>Ver mas <i
+                                                class="fa-solid fa-circle-arrow-right"></i></button></a>
+                                </div>
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="./assets/img/ortodoncias-dentales-v2.jpg" alt="" />
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Ortodoncia</div>
+                                        <div class="job">Si tienes los dientes mal alineados, la solución es el
+                                            tratamiento de Ortodoncia, dónde los dientes se colocan en su posición
+                                            correcta. Existen brackets metálicos, estéticos, sin ligas e incluso
+                                            sistemas totalmente transparentes.</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="button">
+                        <label for="one" class="active one"></label>
+                        <label for="two" class="two"></label>
+                        <label for="three" class="three"></label>
+                        <label for="four" class="four"></label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- expereriencias -->
+            <div class="contenido">
+                <h2>Experiencias</h2>
+                <p>Comentarios de nuestros clientes <i class="fa-solid fa-heart" style="color: red;"></i> </p>
+
+
+                <div class="experiencias">
+                    <div class="box">
+                        <img src="./assets/img/logo.svg" alt="logo">
+                        <h4>Una hermosa
+                            experiencia</h4>
+                        <p>La atencion es muy
+                            calida, el doctor
+                            muy profesional.</p>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/logo.svg" alt="logo">
+                        <h4>Sonrisa deseada </h4>
+                        <p>Son muy profesionales al momento de la toma de deciones.</p>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/logo.svg" alt="logo">
+                        <h4>Las mejores carillas
+                            de la ciudad</h4>
+                        <p>Son muy resistentes y de color demasiado natural.</p>
+                    </div>
+                    <div class="box">
+                        <img src="./assets/img/logo.svg" alt="logo">
+                        <h4>Diseño de sonrisa maravillosa</h4>
+                        <p>Me hace ver mi sonrisa muy natural, no se ven gigantes y feas, las recomiendo</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- contacto -->
+            <div class="contenido">
+                <h2>Contactanos</h2>
+                <p>¿En donde estamos ubicados? <i class="fa-solid fa-map-pin"></i></p>
+
+
+                <div class="ubicacion">
+                    <div class="contenido-u">
+                        <a href="https://maps.app.goo.gl/9s6mJQt5WkiXpBEXA" target="_blank">
+                            <p><i class="fa-solid fa-map-pin"></i> Kr 24 #06 - 36, Bogotá</p>
+                        </a>
+                        <a href="https://wa.link/r18f6n">
+                            <p><i class="fa-brands fa-whatsapp"></i> +57 321 4586 443</p>
+                        </a>
+                        <a
+                            href="mailto:dentsalud93@gmail.com?subject=Interesado de tratamiento&body=Hola! vengo de la pagina web (escribe tu interes)">
+                            <p><i class="fa-solid fa-envelope"></i> Dentsalud93@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="mapa">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.012433140773!2d-74.10034412557208!3d4.591791242593236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f991f287c332f%3A0xd7f0477bdbcc9285!2sDentsalud93!5e0!3m2!1ses-419!2sco!4v1707152298703!5m2!1ses-419!2sco"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <div class="informacion-f">
+            <div class="logo-f">
+                <img src="./assets/img/logo-invertido.svg" alt="logo-Dent">
+                <div class="eslogan-f">
+                    <h3>DentSalud 93</h3>
+                    <p>Consultorio Odontológico</p>
+                </div>
+            </div>
+            <div class="informacion-f-2">
+                <p>DentSalud93, está conformada por un grupo de
+                    odontólogos especializados en tratamientos correctivos
+                    y estéticos, preocupados por el bienestar y la salud
+                    bucal de la sociedad colombiana, ofrecemos alternativas
+                    con tecnología de punta para garantizar la calidad de
+                    nuestro servicio.</p>
+
+                <a
+                    href="mailto:dentsalud93@gmail.com?subject=Interesado de tratamiento&body=Hola! vengo de la pagina web (escribe tu interes)"><button>
+                        <i class="fa-solid fa-envelope"></i> Email</button></a>
+                <a href="https://wa.link/r18f6n"><button><i class="fa-brands fa-whatsapp"></i> WhatsApp</button></a>
+            </div>
+        </div>
+        <div class="extra">
+            <div class="informacion-f-3">
+                <h4>Información</h4>
+                <div class="nav-f">
+                    <a href="index.html" class="active-nav">Inicio</a>
+                    <a href="#tratamientos">Tratamientos</a>
+                    <a href="#blog">Blog</a>
+                    <a href="https://wa.link/r18f6n">Contacto</a>
+                </div>
+               
+            </div>
+            <div class="redes-pagos">
+                <div class="redes">
+                    <h4>Redes Sociales</h4>
+                    <a href="https://wa.link/r18f6n"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="pagos">
+                    <h4>Medios de pagos</h4>
+                    <div class="pagos-p">
+                       <img src="./assets/img/nequi.png" alt="">
+                       <img src="./assets/img/davi.png" alt="">
+                       <img src="./assets/img/visa.png" alt="">
+                       <img src="./assets/img/master.png" alt="">
+                       <img src="./assets/img/expres.png" alt="">
+                       <img src="./assets/img/codensa.jpeg" alt=""> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="derechos">
+        <span>Hecho con <i class="fa-solid fa-heart"></i> por Jhoann Zamudio | SaludDent93 Todos los derechos reservados 2024</span>
+    </div>
+
+
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
